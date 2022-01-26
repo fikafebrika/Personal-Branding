@@ -1,0 +1,139 @@
+.bg-primary {
+  background-color: #1976d2 !important;
+}
+
+.jumbotron {
+  background-image: url(img/scott-graham-5fNmWej4tAA-unsplash.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 0 -170px;
+  height: 420px;
+  padding-top: 90px;
+}
+
+.img-thumbnail {
+  box-shadow: 1px 1px 10px rgba(25, 118, 210, 0.5);
+}
+
+.display-4 {
+  font-size: 53px;
+  font-weight: 400;
+  padding-top: 15px;
+  text-shadow: 1px 1px 10px rgba(25, 118, 210, 0.25);
+  margin-bottom: 0.2rem;
+}
+img .logo {
+  width: 70px;
+  height: 30px;
+}
+.lead {
+  font-weight: 500;
+  text-shadow: 1px 1px 10px rgba(25, 118, 210, 0.25);
+}
+.about .container,
+#projects .container,
+#contact .container,
+#skills .container,
+#tools .container {
+  margin-bottom: 15px;
+}
+
+#about {
+  list-style: none;
+  padding-bottom: 25px;
+}
+#skills {
+  background-color: #e2edff;
+  padding-bottom: 25px;
+}
+#tools {
+  background-color: #fcfcfc;
+  padding-bottom: 25px;
+}
+#experience {
+  background-color: #e2edff;
+  padding-bottom: 25px;
+}
+#education {
+  background-color: #fcfcfc;
+  padding-bottom: 25px;
+}
+#contact {
+  background-color: #fcfcfc;
+  padding-bottom: 25px;
+}
+#projects {
+  background-color: #e2edff;
+  padding-bottom: 25px;
+}
+#projects .container .row {
+  padding-bottom: 10px;
+}
+
+.bar {
+  background: #90cbe5;
+  width: 90%;
+  display: block;
+  height: 5px;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.bar span {
+  height: 5px;
+  float: center;
+  background-color: #2196f3;
+}
+.as {
+  width: 75%;
+}
+
+.fe {
+  width: 80%;
+}
+
+.be {
+  width: 50%;
+}
+h2 {
+  text-align: center;
+  padding: 20px;
+}
+.slick-slide {
+  margin: 20px;
+}
+.slick-slide img {
+  width: 100%;
+}
+.slick-slider {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+}
+.slick-list {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+}
+.slick-track {
+  position: relative;
+  top: 0;
+  left: 0;
+  display: block;
+}
+.slick-slide {
+  display: none;
+  float: left;
+  height: 100%;
+  min-height: 1px;
+}
+.slick-slide img {
+  display: auto;
+  width: 180px;
+  height: 180px;
+}
+.slick-initialized .slick-slide {
+  display: block;
+}
